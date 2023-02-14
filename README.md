@@ -42,4 +42,7 @@ def rps(choice): # play rock, paper, scissors
         (player_choice == 2 and comp_choice == 0):
         print(comp + ', You lose')
     else: print(comp + ', You win')
+    
+player_choice = input('Make your choice (rock, paper or scissors): ')
+rps(player_choice)
 ```
